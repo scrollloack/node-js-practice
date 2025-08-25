@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1755785563437" clover="3.2.0">
+  <project timestamp="1755785563438" name="All files">
+    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4" elements="15" coveredelements="13" complexity="0" loc="10" ncloc="10" packages="1" files="4" classes="4"/>
+    <file name="isPalindrome.js" path="/workspaces/js-practice/jest-intro/isPalindrome.js">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="reverseString.js" path="/workspaces/js-practice/jest-intro/reverseString.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+    </file>
+    <file name="shallowObjClone.js" path="/workspaces/js-practice/jest-intro/shallowObjClone.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="/workspaces/js-practice/jest-intro/sum.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

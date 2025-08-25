@@ -1,0 +1,5 @@
+20250822	14:07:29	9ffa43fd-89ae-4589-9440-7cf41538e86d	/new-page	GET
+20250822	14:07:29	d10fb4d3-b8f7-414e-9c3a-449f7b8c4b35	/css/style.css	GET
+20250822	14:07:29	a13eddbe-4c2e-4891-abf9-4ceacc2d4c41	/img/img1.jpg	GET
+20250822	14:07:29	ee3cf11f-4ba5-4ed7-8cec-d0a152393ebd	/favicon.ico	GET
+20250822	14:10:26	7b1ca79e-4f99-49f8-a726-827f48d153c6	/new-page	GET

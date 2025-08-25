@@ -1,0 +1,19 @@
+20250822	14:10:26	a89c1c3d-15b5-4c6a-91a1-da94991460b6	TypeError: fsPromises.readFil is not a function
+20250823	07:05:33	782c8059-c667-4c7d-9cea-452cf607e7f4	Error:	Not allowed by CORS.
+20250823	07:05:33	3125cb62-f315-49a0-bbbb-f859db728ce1	Error:	Not allowed by CORS.
+20250824	13:00:55	8d80cbc7-df21-4e97-8ffd-79c6c67d3fbc	SyntaxError:	"undefined" is not valid JSON
+20250824	13:02:51	97993451-8b4b-41ac-8354-062a0cc9de5a	SyntaxError:	"undefined" is not valid JSON
+20250824	13:18:54	3c084e85-7223-49fd-86e6-5b828ed514a1	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:19:30	bb6cafbe-74c5-4353-8b98-59bb2a24fdb8	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:19:45	c6d0ce3b-ef46-4dee-8f97-eee9144a02fa	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:20:00	660ca9ad-0add-45ae-9314-43e25c9f228d	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:20:40	9cd80609-d513-478d-9804-ecd9defd9724	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:21:53	ef66ef4e-dc98-4689-8e19-14027b34d61b	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:23:08	c87e1a2a-e50e-4290-a9ae-97551839c549	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:23:34	8744854b-8916-4408-8389-7fdfe9d20663	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:24:47	c55f91c0-d12c-410a-a76d-284101532b04	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:29:58	706476e9-16ef-44fb-b80b-64a8a90c0006	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250824	13:49:20	f3c76a8e-c72e-4837-958e-eeab44e1da9f	ReferenceError:	whitelist is not defined
+20250824	13:53:21	0f363663-9e63-4dee-a331-f4ea20d1d0c9	TypeError:	Cannot read properties of undefined (reading 'refreshToken')
+20250825	11:50:28	d3a31eb2-708e-412a-aa57-19c752ed9afa	TypeError:	Cannot read properties of undefined (reading 'id')
+20250825	13:27:26	59603bed-a459-4bc1-a925-09b9237890ec	ReferenceError:	user is not defined

@@ -1,0 +1,88 @@
+{
+  "name": "nodejs-practice",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "wallabyjs.wallaby-extension-pack",
+        "xabikos.javascriptsnippets",
+        "chakrounanas.turbo-console-log",
+        "christian-kohler.path-intellisense",
+        "jakob101.relativepath",
+        "eamodio.gitlens",
+        "stripe.endsmart",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "2gua.rainbow-brackets",
+        "oderwat.indent-rainbow",
+        "github.copilot",
+        "shahilkumar.docxreader",
+        "ritwickdey.liveserver",
+        "formulahendry.code-runner",
+        "usernamehw.errorlens",
+        "wix.vscode-import-cost"
+      ]
+    },
+    "settings": {
+      "files.eol": "\n",
+      "prettier": {
+        "configPath": ".devcontainer/prettierrc.yml"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[yaml, yml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "cSpell.enableFiletypes": [
+        "slim",
+        "javascript",
+        "typescript",
+        "html",
+        "css"
+      ],
+      "cSpell.ignorePaths": [
+        ".devcontainer"
+      ],
+      "cSpell.ignoreRegExpList": [
+        "/gkc_hash_code.*/g"
+      ],
+      "indentRainbow.indicatorStyle": "light",
+      "indentRainbow.lightIndicatorStyleLineWidth": 3,
+      "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+      ]
+    }
+  },
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // This can be used to network with other containers or with the host.
+  "forwardPorts": [
+    3500,
+    5432
+  ],
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "yarn install",
+  // Configure tool-specific properties.
+  // "customizations": {},
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "postStartCommand": "git config --global --add safe.directory /workspaces/${localWorkspaceFolderBasename}",
+  "remoteUser": "node"
+}
